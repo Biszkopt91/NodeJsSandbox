@@ -5,3 +5,8 @@
         <li><a href="mailto:{{email}}">{{username}}</a></li>
     {{/each}}
 </ul>
+<form id="addUser" name="adduser" method="post" action="/adduser">
+    <input placeholder="name" type="text" name="username">
+    <input placeholder="email" type="text" name="email">
+    <button type="submit">Dodaj</button>
+</form>
